@@ -1,0 +1,88 @@
+Week 01 ──► [v0.1 CLI Tracker]        ──── (Working terminal app)
+Week 02 ──► [v0.2 Target Engine]      ──── (Numeric targets & daily amounts)
+Week 03 ──► [v0.3 FastAPI Layer]      ──── (REST endpoints online)
+Week 04 ──► [v0.4 Streak Math]        ──── (Skip/Freeze & streak tracking)
+Week 05 ──► [v0.5 Web UI Alpha]       ──── (Log habits from browser)
+Week 06 ──► [v0.6 Progress Gauges]    ──── (Visual progress rings & sliders)
+Week 07 ──► [v0.7 Heatmap Engine]     ──── (GitHub-style history grid)
+Week 08 ──► [v0.8 Offline Engine]     ──── (Local storage & instant feedback)
+Week 09 ──► [v0.9 Night-Owl Cutoff]   ──── (Custom day boundaries & timezones)
+Week 10 ──► [v1.0 Analytics Dashboard]──── (Consistency stats & export)
+Week 11 ──► [v1.1 API & Webhooks]     ──── (Terra integration ready)
+Week 12 ──► [v1.2 Production Release] ──── (Dockerized & production hardened)
+
+
+Phase 1: Core Engine & API Releases (Weeks 1–4)
+Week 1: v0.1 — Terminal CLI Tracker (10 hrs)
+
+Ship: A working Python CLI tool using argparse or click and SQLite.
+
+Deliverable: Command-line command to add habits, mark them done, and view a text table of today's progress.
+
+Week 2: v0.2 — Quantitative Target Engine (10 hrs)
+
+Ship: Core target tracking math engine.
+
+Deliverable: Support for custom daily goals (e.g., target 3,000 mL, partial logs of +500 mL, percentage calculation).
+
+Week 3: v0.3 — FastAPI REST Service (10 hrs)
+
+Ship: A lightweight web backend.
+
+Deliverable: FastAPI backend serving interactive Swagger docs at /docs with JSON endpoints for CRUD operations.
+
+Week 4: v0.4 — Smart Streak Engine (10 hrs)
+
+Ship: Advanced streak & grace period module.
+
+Deliverable: Endpoints that compute current streak, longest streak, and support "Skip" or "Freeze" days without resetting counts.
+
+Phase 2: Web Dashboard Releases (Weeks 5–8)
+Week 5: v0.5 — Web Dashboard Base (10 hrs)
+
+Ship: A minimal web interface connected to FastAPI.
+
+Deliverable: HTML/JS dashboard where you can check off habits and view daily lists.
+
+Week 6: v0.6 — Quantitative Logging UI (10 hrs)
+
+Ship: High-touch visual controls.
+
+Deliverable: Interactive progress bars, numeric input buttons (+250 mL, +500 mL), and instant UI updates.
+
+Week 7: v0.7 — Heatmap Grid (10 hrs)
+
+Ship: Visual history matrix.
+
+Deliverable: GitHub-style green activity grid showing completion intensity over the last 90 days.
+
+Week 8: v0.8 — Local-First Offline Mode (10 hrs)
+
+Ship: Zero-latency offline functionality.
+
+Deliverable: Web client that saves logs to localStorage when offline and syncs back to FastAPI when online.
+
+Phase 3: Advanced Features & Terra Readiness (Weeks 9–12)
+Week 9: v0.9 — Custom Day Boundary & Timezones (10 hrs)
+
+Ship: Flexible daily cutoff engine.
+
+Deliverable: Setting to allow late-night logs (e.g., up to 3:00 AM) to count toward the previous calendar day.
+
+Week 10: v1.0 — Quantified Self Analytics (10 hrs)
+
+Ship: Statistics engine and data exporter.
+
+Deliverable: Reports tab calculating overall consistency %, weekly trends, and CSV/JSON export buttons.
+
+Week 11: v1.1 — External Webhooks & API Integration (10 hrs)
+
+Ship: Automation integration.
+
+Deliverable: Webhook dispatcher that sends notifications or triggers external events when milestones (e.g., 7-day streak) are hit.
+
+Week 12: v1.2 — Production Container & Final Release (10 hrs)
+
+Ship: Production deployment package.
+
+Deliverable: Docker image and single-line deployment script (docker-compose up) ready for hosting anywhere.
